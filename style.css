@@ -1,0 +1,119 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d192b;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.card {
+  background: #14253d;
+  /* max-width: 500px; */
+  /* text-align: center; */
+  border-radius: 10px;
+}
+
+section.card .container {
+  padding: 30px;
+  max-width: 340px;
+}
+
+section.card .container img {
+  border-radius: 10px;
+  width: 280px;
+}
+
+section.card .card-content {
+  margin-top: 20px;
+}
+
+section.card .card-title {
+  color: #ffffff;
+  /* font-weight: 600; */
+}
+
+section.card .card-content p {
+  margin-top: 15px;
+  color: #7688a3;
+  font-weight: 400;
+}
+
+section.card .card-content .days-left {
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid #8bacda;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.card .card-content .days-left .eth {
+  color: #00fff7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.card .card-content .days-left .eth i.eth-img {
+  background: url("./images/icon-ethereum.svg");
+  height: 18px;
+  background-size: cover;
+  width: 11px;
+  margin-right: 8px;
+}
+section.card .card-content .days-left .days i.days-img {
+  background: url("./images/icon-clock.svg");
+  height: 16px;
+  width: 16px;
+  background-size: cover;
+  margin-right: 8px;
+}
+section.card .card-content .days-left .days {
+  color: #8bacda;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.card .card-content .footer {
+  margin-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+section.card .card-content .footer .footer-image {
+  padding: 1px;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 43px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+section.card .card-content .footer .footer-image img {
+  width: 40px;
+}
+section.card .card-content .footer p {
+  margin: 0;
+}
+
+section.card .card-content .footer p span {
+  color: #ffffff;
+}
